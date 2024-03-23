@@ -1,5 +1,5 @@
 @extends('admin/layouts/app')
-@section('title' , 'Book It - Em cada História uma Aventrua !')
+@section('title', 'Book It - Em cada História uma Aventrua !')
 @section('header')
     @include('admin/partials/header')
 @endsection
@@ -8,4 +8,7 @@
 @endsection
 @section('herobaner')
     @include('admin/partials/herobaner')
+@endsection
+@section('features')
+    @include('admin/partials/features')
 @endsection
