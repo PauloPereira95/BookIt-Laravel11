@@ -2,9 +2,9 @@
 <nav class="bg-gray-800">
     <div class="container flex">
         <div class="px-8 py-4 bg-primary md:flex items-center cursor-pointer relative group hidden">
-                <span class="text-white">
-                    <i class="fa-solid fa-bars"></i>
-                </span>
+            <span class="text-white">
+                <i class="fa-solid fa-bars"></i>
+            </span>
             <span class="capitalize ml-2 text-white hidden">All Categories</span>
 
             <!-- dropdown -->
@@ -39,12 +39,15 @@
 
         <div class="flex items-center justify-between flex-grow md:pl-12 py-5">
             <div class="flex items-center space-x-6 capitalize">
-                <a href="index.html" class="text-gray-200 hover:text-white transition">Home</a>
-                <a href="pages/shop.html" class="text-gray-200 hover:text-white transition">Shop</a>
-                <a href="#" class="text-gray-200 hover:text-white transition">About us</a>
-                <a href="#" class="text-gray-200 hover:text-white transition">Contact us</a>
+                {{-- <a href="index.html" class="text-gray-200 hover:text-white transition">Home</a> --}}
+                <a href="pages/shop.html" class="text-gray-200 hover:text-white transition">Alugar</a>
+                <a href="#" class="text-gray-200 hover:text-white transition">Sobre Nós</a>
+                <a href="#" class="text-gray-200 hover:text-white transition">Contactos</a>
             </div>
-            <a href="pages/login.html" class="text-gray-200 hover:text-white transition">Login</a>
+            {{-- <div class="flex items-center space-x-6 capitalize">
+                <a href="pages/login.html" class="text-gray-200 hover:text-white transition">Iniciar Sessão</a>
+                <a href="pages/login.html" class="text-gray-200 hover:text-white transition">Criar Conta</a>
+            </div> --}}
         </div>
     </div>
 </nav>
