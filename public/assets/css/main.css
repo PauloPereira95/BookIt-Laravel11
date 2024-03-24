@@ -12,7 +12,13 @@
     /* This is the hexadecimal representation of rgb(3, 166, 90) */
 }
 
+/* CUSTOM */
+input::placeholder {
+    padding-left: 40px;
+    /* Adjust the value as needed */
+}
 
+/* ---- */
 *,
 ::before,
 ::after {
@@ -1538,6 +1544,11 @@ h6 {
 .py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.py-14 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .px-3 {
