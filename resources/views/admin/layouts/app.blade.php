@@ -24,6 +24,7 @@
     @yield('navbar')
     @yield('herobaner')
     @yield('features')
+    @yield('home_categories')
 </body>
 
 </html>

@@ -7,8 +7,11 @@
     @include('admin/partials/navbar')
 @endsection
 @section('herobaner')
-    @include('admin/partials/herobaner')
+    @include('admin/partials/home/herobaner')
 @endsection
 @section('features')
-    @include('admin/partials/features')
+    @include('admin/partials/home/features')
+@endsection
+@section('home_categories')
+    @include('admin/partials/home/home_categories')
 @endsection
