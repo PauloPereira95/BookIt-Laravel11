@@ -25,6 +25,7 @@
     @yield('herobaner')
     @yield('features')
     @yield('home_categories')
+    @yield('noveltis')
 </body>
-
+    @yield('footer')
 </html>

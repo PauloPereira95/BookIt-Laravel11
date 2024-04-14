@@ -15,3 +15,9 @@
 @section('home_categories')
     @include('admin/partials/home/home_categories')
 @endsection
+@section('noveltis')
+    @include('admin/partials/home/noveltis')
+@endsection
+@section('footer')
+    @include('admin/partials/footer')
+@endsection

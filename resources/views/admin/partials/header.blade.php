@@ -1,26 +1,26 @@
 <!-- header -->
-<header class="py-4 shadow-sm bg-white">
+<header class="bg-white py-4 shadow-sm">
     <div class="container flex items-center justify-between">
         <a href="index.html">
             <img src="assets/images/icons/book-it-high-resolution-logo.svg" alt="Logo" class="w-32">
         </a>
 
-        <div class="w-full max-w-xl relative flex">
-            <span class="absolute left-4 top-3 text-lg text-gray-400 flex items-center">
+        <div class="relative flex w-full max-w-xl">
+            <span class="absolute left-4 top-3 flex items-center text-lg text-gray-400">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </span>
             <input type="text" name="search" id="search"
-                class="w-full border border-primary border-r-0 pl-12 py-3 pr-3 rounded-l-md focus:outline-none hidden md:flex"
+                class="hidden w-full rounded-l-md border border-r-0 border-primary py-3 pl-12 pr-3 focus:outline-none md:flex"
                 placeholder="search">
             <button
-                class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition hidden md:flex items-center">
+                class="hidden items-center rounded-r-md border border-primary bg-primary px-8 text-white transition hover:bg-transparent hover:text-primary md:flex">
                 Search
             </button>
         </div>
 
         <div class="flex items-center space-x-4">
-            <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
-                <div class=" mr-3 flex justify-center">
+            <a href="#" class="relative text-center text-gray-700 transition hover:text-primary">
+                <div class="mr-3 flex justify-center">
                     <div class="text-2xl">
                         <i class="fa-regular fa-heart"></i>
                         <div class="text-xs leading-3">Favoritos</div>
@@ -28,20 +28,20 @@
                 </div>
                 <div class="flex justify-center">
                     <div
-                        class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs ">
+                        class="absolute -top-1 right-0 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-white">
                         8</div>
                 </div>
             </a>
-            <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+            <a href="#" class="relative text-center text-gray-700 transition hover:text-primary">
                 <div class="text-2xl">
                     <i class="fa-solid fa-bag-shopping"></i>
                 </div>
                 <div class="text-xs leading-3">Carrinho</div>
                 <div
-                    class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">
+                    class="absolute -right-3 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-white">
                     2</div>
             </a>
-            <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+            <a href="#" class="relative text-center text-gray-700 transition hover:text-primary">
                 <div class="text-2xl">
                     <i class="fa-regular fa-user"></i>
                 </div>
