@@ -41,11 +41,18 @@
                     class="absolute -right-3 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-white">
                     2</div>
             </a>
-            <a href="#" class="relative text-center text-gray-700 transition hover:text-primary">
-                <div class="text-2xl">
-                    <i class="fa-regular fa-user"></i>
-                </div>
-                <div class="text-xs leading-3">Conta</div>
+            @if (Route::has('login'))
+                @auth
+                    <a href="{{ url('/dashboard') }}" class="relative text-center text-gray-700 transition hover:text-primary">
+                    @else
+                        <a href="{{ route('login') }}" class="relative text-center text-gray-700 transition hover:text-primary">
+
+                        @endauth
+                        <div class="text-2xl">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <div class="text-xs leading-3">Conta</div>
+            @endif
             </a>
         </div>
     </div>
