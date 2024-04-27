@@ -1,7 +1,7 @@
 <!-- header -->
 <header class="bg-white py-4 shadow-sm">
     <div class="container flex items-center justify-between">
-        <a href="index.html">
+        <a href="/">
             <img src="{{ asset('assets/images/icons/book-it-high-resolution-logo.svg') }}" alt="Logo" class="w-32">
 
         </a>
