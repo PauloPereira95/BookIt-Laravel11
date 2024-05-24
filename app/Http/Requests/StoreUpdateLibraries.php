@@ -24,7 +24,8 @@ class StoreUpdateLibraries extends FormRequest
     public function rules(): array
     {
         $rules = [
-            'name' => ['required' ,'min:3','max:100', Rule::unique(Library::class)]
+            'name' => ['required' ,'min:3','max:100', Rule::unique(Library::class)],
+            'address' => ['required' ,'min:3','max:100']
         ];
         return $rules;
     }

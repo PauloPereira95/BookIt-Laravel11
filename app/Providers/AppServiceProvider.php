@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Repositories\Contracts\LibraryRepositoryInterface;
+use App\Repositories\Eloquent\LibraryRepository;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -11,7 +13,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->bind(
+            LibraryRepositoryInterface :: class,
+            LibraryRepository::class
+        );
     }
 
     /**

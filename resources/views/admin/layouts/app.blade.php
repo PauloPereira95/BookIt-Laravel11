@@ -26,6 +26,7 @@
     @yield('features')
     @yield('home_categories')
     @yield('noveltis')
+    @yield('library_content')
 </body>
     @yield('footer')
 </html>
